@@ -38,7 +38,6 @@
 
 # file.close()
 
-
 # write
 
 # file = open("file.txt","w")
@@ -60,3 +59,4 @@
 #     content = file.read()           
 
 #     print(content)
+
