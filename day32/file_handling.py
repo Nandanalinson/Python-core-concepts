@@ -1,3 +1,4 @@
+
 # FILE HANDLING
 #=================
 
@@ -13,3 +14,9 @@
 # read   "r"
 # write  "w"
 # append "a"
+
+# read >> "r"  file should be existing else error will be raised
+# write >> "w" write the file from scratch (erase if there is any existing data)
+#              if file doesnt exist , create a new file then start writing
+
+# append >> "a"  write at the end of the existing data (file)
