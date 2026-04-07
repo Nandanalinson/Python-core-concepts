@@ -153,3 +153,58 @@ arr.shape
 # math operation  cannot directly   can directly
 
 # used in         general python   AI,ML,Data science
+
+
+# 1D
+# forward indexing
+# backward indexing
+y = np.array([1,2,3,4,5,6])
+y
+
+array([1, 2, 3, 4, 5, 6])
+
+y.shape
+(6,)
+
+y.ndim
+1
+
+y[0]
+np.int64(1)
+
+print(y[0])   # forward indexing
+1
+
+print(y[-1])    # backward indexing
+6
+
+print(y[1:3])   # slicing
+[2 3]
+
+print(y[2:5])
+[3 4 5]
+
+# [5]
+print(y[-2])
+
+# [4,5,6]
+print(y[3:])
+
+# 2D
+h = np.array([[1,2,3],[4,5,6],[6,7,8]])
+h
+
+print(h[0])
+[1 2 3]
+
+print(h[0][0])
+1
+
+print(h[1][1])
+5
+
+print(h[2,1:])
+[7 8]
+
+print(h[3,0:2])
+[7 8]
